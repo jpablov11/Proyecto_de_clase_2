@@ -11,7 +11,7 @@ export default function SearchBar() {
     e.preventDefault();
     const trimmed = query.trim();
     if (!trimmed) {
-      setError('❌ Por favor, ingresa el nombre de un superhéroe.');
+      setError('Por favor, ingresa el nombre de un superhéroe.');
       return;
     }
     setError('');

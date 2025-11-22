@@ -1,4 +1,3 @@
-// src/pages/FavoritesPage.jsx
 import { useFavorites } from '../context/FavoriteContext';
 import { useAuth } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';

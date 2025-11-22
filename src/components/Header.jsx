@@ -22,7 +22,6 @@ export default function Header() {
       <div className="container mx-auto px-4 py-3 flex flex-col md:flex-row justify-between items-center gap-4">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 text-xl font-bold">
-          <span>🦸‍♂️</span>
           <span>SuperHero Wiki</span>
         </Link>
 
